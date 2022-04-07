@@ -1,0 +1,25 @@
+.filters{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* padding: 3vh 0px; */
+    
+    list-style: none;
+    font-size: 18px;
+}
+.filters input{
+    margin-right:10px;
+    
+}
+
+@media(max-width:375px){
+    .filters{
+        /* display: inline; */
+        /* justify-content: start; */
+    }
+    .filters  li{
+        /* margin: 10px 5px; */
+        /* margin-right: 5px; */
+        
+    }
+}

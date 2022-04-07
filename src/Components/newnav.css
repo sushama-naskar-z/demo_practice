@@ -1,0 +1,63 @@
+.nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .nav_left .nav_svg{
+    width: 30px;
+}
+.nav .nav_middle{
+    width: 50%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+.nav .nav_middle input{
+
+    width: 80%;
+  
+    border: none;
+}
+.nav .nav_middle input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.nav .nav_middle .nav_svg{
+    width: 30px;
+}
+.nav .nav_svg:hover{
+    cursor: pointer;
+}
+.nav .nav_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .nav_right .nav_svg{
+    width: 30px;
+}
+.nav .nav_right .sign_in_text{
+    font-size: 24px;
+    font-weight: 500px;
+    margin: 0px 30px;
+}
+.nav .nav_right .sign_in_text:hover{
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .nav{
+        flex-wrap: wrap;
+    }
+    .nav .nav_middle{
+        order: 1;
+        width: 90%;
+        margin: auto;
+    }
+}
+.close-icon{
+    width: 500px;
+}

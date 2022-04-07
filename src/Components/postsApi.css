@@ -1,0 +1,17 @@
+.heading{
+    width: 100%;
+    height: 7vh;
+    padding:0px 15px;
+    background-color: rgb(204, 54, 66);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.search_icon{
+    width:30px;
+    
+    fill: white;
+}

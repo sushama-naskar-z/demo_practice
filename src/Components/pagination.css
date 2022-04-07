@@ -1,0 +1,11 @@
+
+.numberdisplay {
+    background-color: aqua;
+  color:red;
+  margin:auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+   
+    
+}
